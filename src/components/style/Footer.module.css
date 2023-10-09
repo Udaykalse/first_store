@@ -1,0 +1,158 @@
+.footer {
+    background: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .col-1 {
+    flex: 1;
+    max-width: 150px;
+  }
+  
+  .col-2,
+  .col-3 {
+    flex: 1;
+    max-width: 180px;
+  }
+  
+  .col-4 {
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .col-5 {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  /* Logo styles */
+  .Logo {
+    width: 135px;
+    height: 74px;
+    top: 73px;
+    left: 140px;
+    margin-bottom: 10px;
+  }
+  
+  .connecting {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  h2 {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Manrope';
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+  
+  .col-2 ul li,
+  .col-3 ul li {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EEEEEE;
+    list-style: none !important;
+    text-align: start;
+  }
+  
+  .col-3 ul li {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EEEEEE;
+    text-align: start;
+    margin: 0;
+  }
+
+  /* .col-4{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 22.5px;
+text-align: start;
+  } */
+  
+  .col-4 p {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #FFFFFF;
+  }
+  
+  .col-4 h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    /* margin: 90px 0 ;*/
+  }
+
+  
+  .HorizontalLine {
+    width: 90%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 50px 0 ;
+  }
+
+  .iconscontainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  h5{
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EEEEEE;
+    text-align: center;
+    letter-spacing: -2%;
+  }
+  /* .searchbar input {
+    width: fixed 370.5px;
+    height: 40.45px;
+    top: 48.5px;
+    border-radius: 43.5px ;
+    border: 1.45px solid #FFFFFF;
+    /* border: 1.45px  ; */
+   /* padding: 12.32px,11.6px, 12.32px,11.6px ;
+    gap: 9.34px;
+    background: transparent;
+    color: #FFFFFF;
+  } */
+ .searchbar input {
+  width: 370.5px; 
+  height: 40.45px;
+  top: 48.5px;
+  border-radius: 43.5px;
+  border: 1.45px solid #FFFFFF;
+  padding: 12.32px 11.6px 12.32px 11.6px;
+  gap: 9.34px;
+  background: transparent;
+  color: #FFFFFF;
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
+.searchbar i.fa-arrow-right {
+  font-size: 24px; 
+  color: #FFFFFF; 
+  margin-left: 5px; 
+}
+
+.searchbar svg{
+  width: 13.051px;
+height: 13.051px;
+flex-shrink: 0;
+}
+

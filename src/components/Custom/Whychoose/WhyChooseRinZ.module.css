@@ -1,0 +1,77 @@
+/* WhyChooseRinZ.module.css */
+
+.whychooserinz {
+  background-color: #14121E;
+  padding: 50px 0;
+  text-align: center;
+  color: #333;
+}
+
+#Headingone {
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 46.96px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 1;
+  max-width: 40%;
+}
+
+.frame {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.right {
+  flex: 1;
+  max-width: 50%;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.featurecontent {
+  text-align: left;
+}
+
+.featurecontent h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.featurecontent p {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+

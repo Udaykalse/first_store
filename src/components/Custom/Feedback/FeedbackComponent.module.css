@@ -1,0 +1,77 @@
+.feedbackcontainer {
+  background-color: #14121E;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.h1 {
+font-family: "Raleway";
+  font-weight: 600;
+  font-size: 45.98px;
+  line-height: 55.14px;
+  color: #FFFFFF;
+}
+
+.feedbackcards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedbackcard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.contactimage {
+  width: 68.65px;
+  height: 68.65px;
+  margin-right:69% ;
+}
+
+.feedbackcard h3 {
+  font-family: "Poppins";
+  font-size: 21.45px;
+  font-weight: 400;
+  line-height: 21.45px;
+  margin-top: -20%;
+  margin-left: 10%;
+}
+
+.feedbackcard p {
+  font-size: 16px;
+  color: #777;
+}
+
+.feedbackcard h2 {
+  text-align: start;
+  font-family: "Poppins";
+  font-size: 28.6px;
+  font-weight: 400;
+  line-height: 20.04px;
+}
+
+#psecond {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #777;
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.rating img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Add any additional styling as needed */

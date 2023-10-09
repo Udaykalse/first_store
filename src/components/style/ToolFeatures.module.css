@@ -1,0 +1,93 @@
+
+
+.toolfeatures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+    background-image: url("./../assets/tool5.png" );
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 45.98px;
+    font-weight: 600;
+    line-height: 55.14px;
+    font-family: "Raleway";
+    color: #000000;
+  }
+
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+
+
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.18px;
+    font-family: "Raleway";
+    color:#262626;
+  }
+
+  .subfeature{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .feature p {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 24.79px;
+    font-family: "Poppins";
+    color:#2A2A2A;
+    text-align: center;
+  }
+  
+  .featureicon img {
+    width: 80px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .explorebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 62px;
+    top: 901px;
+    left: 660px;
+    gap:    10px;
+    padding: 16px,30px,16px,30px;
+    border-radius: 50px;
+    background: #0030FF;
+    color: #FFFFFF;
+  }
+  

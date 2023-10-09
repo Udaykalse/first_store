@@ -1,0 +1,78 @@
+.exploreplatforms {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #heading {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 150px;
+    color: #252525;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: #1E2E75;
+  }
+  
+  .card {
+    padding: 20px;
+    top: 0.19px;
+    border: 1px solid #cccccc;
+    border-radius: 10px; 
+    width: 394.34px;
+    height: 398.61px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px; 
+    background-color: #16245A ;
+  }
+  
+  .iconcontainer {
+    width: 40px;
+    height: 40px;
+    background-color: #FEFEFE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 5px;
+  }
+  
+  .icon {
+    font-size: 1rem;
+    color: #16245A;
+    margin-left: 0px;
+    margin-bottom: 90px;
+  }
+  
+  .card h2 {
+    margin: start;
+    color: #FEFEFE;
+    font-weight: 600;
+    font-size: 30px;
+    font-family:"Raleway";
+  }
+  
+  .card:hover {
+    background-color: #4b6af4; 
+  }
+  
+  .card p {
+    margin: start;
+    color: #FEFEFe;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 22.49px;
+    line-height: 33.73px;
+  }

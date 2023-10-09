@@ -1,0 +1,122 @@
+.mainDiv {
+    text-align: center;
+    margin: 20px;
+    background-color: #FFFEFE;
+  }
+  
+  #mainHeading {
+     margin-right: 550px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 45.98px;
+    line-height: 55.14px;    
+  }
+  
+  
+  #mainSubHeading {
+    /* font-size: 20px;
+    margin-bottom: 10px;
+    color: black; */
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 64rem;
+  }
+  
+  #Button1 {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+    margin-top: -3rem;
+  }
+#Button{
+    color: white;
+    margin-left: 80%;
+    margin-bottom: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 50px;
+    padding: 16px , 30px, 16px , 30px;
+    gap: 10px;
+    background-color: #0130fe;
+    margin-top: -1rem;
+}
+  
+  .coursecards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #101010;
+}
+
+.cardCourse {
+    background-color: #F3F2F5 !important;
+    width:379.18px;
+    height: 516.05px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius:23.08p;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align:start;
+    color:#101010;
+
+  }
+  
+  
+  .cardCourse img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #F3F2F5;
+  }
+  
+  
+  .cardCourse h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #101010;
+    background-color: #F3F2F5;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 33.89px;
+
+  }
+
+  .cardCourse p{
+    color: #101010;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 15.39px;
+    line-height: 23.08px;
+    text-align: start;
+    margin-left: 1rem;
+  }
+  
+  .cardCourse #mainPara {
+    color: #101010;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 15.39px;
+    margin: 0; 
+    padding: 0; 
+    line-height: normal; 
+    text-align: start;
+  }
+  
+  
+  
+  .cardCourse a:active {
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #499cf4;
+  }
+  
+  .cardCourse:hover {
+  
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
